@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\Data\\Курс Контур 2024\\Информация\\Апрель\\ЯП\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj": {}
+    "C:\\Users\\user\\Documents\\Data\\Kontur\\Learning\\April\\Test\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\Data\\Курс Контур 2024\\Информация\\Апрель\\ЯП\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj": {
+    "C:\\Users\\user\\Documents\\Data\\Kontur\\Learning\\April\\Test\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\Data\\Курс Контур 2024\\Информация\\Апрель\\ЯП\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Data\\Kontur\\Learning\\April\\Test\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj",
         "projectName": "Seleniumtests_rakhimova",
-        "projectPath": "C:\\Users\\user\\Documents\\Data\\Курс Контур 2024\\Информация\\Апрель\\ЯП\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\Data\\Kontur\\Learning\\April\\Test\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\Data\\Курс Контур 2024\\Информация\\Апрель\\ЯП\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Data\\Kontur\\Learning\\April\\Test\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.9.0, )"
@@ -45,6 +53,10 @@
             "NUnit": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",

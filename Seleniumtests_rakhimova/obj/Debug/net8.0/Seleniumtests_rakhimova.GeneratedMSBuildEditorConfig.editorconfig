@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SeleniumTest_Rakhimova
-build_property.ProjectDir = C:\Users\user\Documents\Data\Курс Контур 2024\Информация\Апрель\ЯП\Seleniumtests_rakhimova\Seleniumtests_rakhimova\
+build_property.ProjectDir = C:\Users\user\Documents\Data\Kontur\Learning\April\Test\Seleniumtests_rakhimova\Seleniumtests_rakhimova\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
