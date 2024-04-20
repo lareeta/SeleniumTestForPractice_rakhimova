@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NPsj16wFON5p8wghKgPw/RGfgi74/mRZ7MmIrppRzMXYJLdyZh+Q9xFvBf3ShCKg4EfQllk1FYsR4KFY6i4cnQ==",
+  "dgSpecHash": "3fUifhfFc3MQxbSMvowDFEJAJjHxr8agen5MgFLmYplEWTjZs5765nNdqDn5Lr2O68gu8Fy2I2hsGTdTXVLBfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\Data\\Kontur\\Learning\\April\\Test\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova\\Seleniumtests_rakhimova.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\user\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\selenium.webdriver\\4.19.0\\selenium.webdriver.4.19.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
