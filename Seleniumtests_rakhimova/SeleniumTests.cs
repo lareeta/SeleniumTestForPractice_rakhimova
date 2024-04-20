@@ -60,12 +60,13 @@ public class SeleniumTestsForPractice
     [Test]
     public void EditProfile()
     {
-        //
-        driver.FindElement(By.CssSelector("[data-tid='Title']"));
-
-        //Перейти на страницу редактирования профиля
-        driver.Navigate().GoToUrl(baseUrl + "/profile/settings/edit");
-
+        //Нажать на аватарку в правом верхнем углу страницы.
+        OpenPopupMenu();
+        
+        //Нажать на кнопку Редактировать в раскрывшемся списке
+        var buttonLogout = driver.FindElement(By.CssSelector("[data-tid='ProfileEdit']"));
+        buttonLogout.Click();
+        
         //Проверить, что мы находимся на странице с заголовком "Редактирование профиля"
         var pageEditTitle = driver.FindElement(By.CssSelector("[data-tid='Title']"));
         Assert.That(pageEditTitle.Text == "Редактирование профиля",
@@ -87,6 +88,7 @@ public class SeleniumTestsForPractice
 
         //Найти кнопку Сохранить и нажать
         var buttonSave = driver.FindElement(By.CssSelector("[data-tid='PageHeader'] button:nth-child(1)"));
+        //После заполнения полей, тест не видит кнопку Сохранить (элемент выходит за рамки страницы). Нужно пролистнуть страницу наверх и после этого тест видит кнопку. 
         Actions actions = new Actions(driver);
         actions.MoveToElement(buttonSave);
         actions.Perform();
@@ -151,8 +153,7 @@ public class SeleniumTestsForPractice
     public void LogoutUser()
     {
         //Нажать на аватарку в правом верхнем углу страницы.
-        var avatarPopupMenu = driver.FindElement(By.CssSelector("[data-tid='ProfileMenu']"));
-        avatarPopupMenu.Click();
+        OpenPopupMenu();
         
         //Нажать на кнопку Выйти в раскрывшемся списке
         var buttonLogout = driver.FindElement(By.CssSelector("[data-tid='Logout']"));
@@ -179,6 +180,12 @@ public class SeleniumTestsForPractice
 
         var enter = driver.FindElement(By.Name("button"));
         enter.Click();
+    }
+
+    public void OpenPopupMenu()
+    {
+        var avatarPopupMenu = driver.FindElement(By.CssSelector("[data-tid='ProfileMenu']"));
+        avatarPopupMenu.Click();
     }
 
     [TearDown]
