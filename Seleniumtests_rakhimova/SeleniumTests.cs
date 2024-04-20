@@ -140,7 +140,7 @@ public class SeleniumTestsForPractice
         sendButtonMessage.Click();
         
         //Тут  есть баг, после отправки сообщения в диалоговом окне не показывается отправленное сообщение. Нужно обновить страницу
-        driver.Navigate().Refresh();
+        //driver.Navigate().Refresh();
         //Проверить что отправленное сообщение показывается
         var actualMessage =  driver.FindElements(By.CssSelector("[data-tid='Item'] [data-tid='MessageText']")).Last();
         Assert.That(actualMessage.Text, Is.EqualTo(message));
