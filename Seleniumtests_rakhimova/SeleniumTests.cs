@@ -42,7 +42,7 @@ public class SeleniumTestsForPractice
     [Test]
     public void NavigationTest()
     {
-        // При запуске теста, у меня отсутвовал бургер (SidebarMenuButton), так как автоматически открывалось окно больше 1280px*945px из-за кода на странице 24
+        // При запуске теста, у меня отсутвовал бургер (SidebarMenuButton), так как автоматически открывалось окно больше 1280px*945px из-за кода на странице 26
         driver.Manage().Window.Size = new Size(1280, 945);
         var sideMenu = driver.FindElement(By.CssSelector("[data-tid='SidebarMenuButton']"));
         sideMenu.Click();
